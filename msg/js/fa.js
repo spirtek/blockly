@@ -10,6 +10,7 @@ Blockly.Msg.ADD_COMMENT = "افزودن نظر";
 Blockly.Msg.AUTH = "لطفا این اپلیکیشن را ثبت کنید و آثارتان را فعال کنید تا ذخیره شود و اجازهٔ اشتراک‌گذاری توسط شما داده شود.";
 Blockly.Msg.CHANGE_VALUE_TITLE = "تغییر مقدار:";
 Blockly.Msg.CHAT = "با همکارتان با نوشتن در این کادر چت کنید!";
+Blockly.Msg.CLEAN_UP = "Clean up Blocks";  // untranslated
 Blockly.Msg.COLLAPSE_ALL = "فروپاشی بلوک‌ها";
 Blockly.Msg.COLLAPSE_BLOCK = "فروپاشی بلوک";
 Blockly.Msg.COLOUR_BLEND_COLOUR1 = "رنگ ۱";
@@ -35,10 +36,8 @@ Blockly.Msg.CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = "ادامه با تکر
 Blockly.Msg.CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = "شکستن حلقهٔ شامل.";
 Blockly.Msg.CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = "پریدن از بقیهٔ حلقه و ادامه با تکرار بعدی.";
 Blockly.Msg.CONTROLS_FLOW_STATEMENTS_WARNING = "اخطار: این بلوک ممکن است فقط داخل یک حلقه استفاده شود.";
-Blockly.Msg.CONTROLS_FOREACH_HELPURL = "https://github.com/google/blockly/wiki/Loops#for-each برای هر بستن";
-Blockly.Msg.CONTROLS_FOREACH_INPUT_INLIST = "در فهرست";
-Blockly.Msg.CONTROLS_FOREACH_INPUT_INLIST_TAIL = "";  // untranslated
-Blockly.Msg.CONTROLS_FOREACH_INPUT_ITEM = "برای هر مورد";
+Blockly.Msg.CONTROLS_FOREACH_HELPURL = "https://github.com/google/blockly/wiki/Loops#for-each";  // untranslated
+Blockly.Msg.CONTROLS_FOREACH_TITLE = "برای هر مورد %1 در فهرست %2";
 Blockly.Msg.CONTROLS_FOREACH_TOOLTIP = "برای هر مورد در این فهرست، تنظیم متغیر «%1» به مورد و انجام تعدادی عبارت.";
 Blockly.Msg.CONTROLS_FOR_HELPURL = "https://github.com/google/blockly/wiki/Loops#count-with";  // untranslated
 Blockly.Msg.CONTROLS_FOR_TITLE = "با تعداد %1 از %2 به %3 با گام‌های %4";
@@ -63,6 +62,7 @@ Blockly.Msg.CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = "تکرار تا زمانی ک�
 Blockly.Msg.CONTROLS_WHILEUNTIL_OPERATOR_WHILE = "تکرار در حالی که";
 Blockly.Msg.CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = "تا زمانی که یک مقدار ناصحیح است، چند عبارت را انجام بده.";
 Blockly.Msg.CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = "تا زمانی که یک مقدار صحیح است، چند عبارت را انجام بده.";
+Blockly.Msg.DELETE_ALL_BLOCKS = "حذف همهٔ بلاک‌های %1؟";
 Blockly.Msg.DELETE_BLOCK = "حذف بلوک";
 Blockly.Msg.DELETE_X_BLOCKS = "حذف بلوک‌های %1";
 Blockly.Msg.DISABLE_BLOCK = "غیرفعال‌سازی بلوک";

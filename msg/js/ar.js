@@ -10,6 +10,7 @@ Blockly.Msg.ADD_COMMENT = "اضافة تعليق";
 Blockly.Msg.AUTH = "Please authorize this app to enable your work to be saved and to allow it to be shared by you.";  // untranslated
 Blockly.Msg.CHANGE_VALUE_TITLE = "تغيير قيمة:";
 Blockly.Msg.CHAT = "دردش مع زملائك بالكتابة في هذا الصندوق!";
+Blockly.Msg.CLEAN_UP = "Clean up Blocks";  // untranslated
 Blockly.Msg.COLLAPSE_ALL = "إخفاء القطع";
 Blockly.Msg.COLLAPSE_BLOCK = "إخفاء القطعة";
 Blockly.Msg.COLOUR_BLEND_COLOUR1 = "اللون 1";
@@ -35,10 +36,8 @@ Blockly.Msg.CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = "استمر ابتدا�
 Blockly.Msg.CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = "اخرج من الحلقة الحالية.";
 Blockly.Msg.CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = "تخط ما تبقى من هذه الحلقة، واستمر ابتداءا من التكرار التالي.";
 Blockly.Msg.CONTROLS_FLOW_STATEMENTS_WARNING = "تحذير: يمكن استخدام هذه القطعة فقط داخل حلقة.";
-Blockly.Msg.CONTROLS_FOREACH_HELPURL = "https://github.com/google/blockly/wiki/Loops#for-each for each block";  // untranslated
-Blockly.Msg.CONTROLS_FOREACH_INPUT_INLIST = "في قائمة";
-Blockly.Msg.CONTROLS_FOREACH_INPUT_INLIST_TAIL = "";  // untranslated
-Blockly.Msg.CONTROLS_FOREACH_INPUT_ITEM = "لكل عنصر";
+Blockly.Msg.CONTROLS_FOREACH_HELPURL = "https://github.com/google/blockly/wiki/Loops#for-each";  // untranslated
+Blockly.Msg.CONTROLS_FOREACH_TITLE = "لكل عنصر %1 في قائمة %2";
 Blockly.Msg.CONTROLS_FOREACH_TOOLTIP = "لكل عنصر في قائمة ما، عين المتغير '%1' لهذا الغنصر، ومن ثم نفذ بعض الأوامر.";
 Blockly.Msg.CONTROLS_FOR_HELPURL = "https://github.com/google/blockly/wiki/Loops#count-with";  // untranslated
 Blockly.Msg.CONTROLS_FOR_TITLE = "عد بـ %1 من %2 إلى %3 بمعدل %4";
@@ -63,13 +62,14 @@ Blockly.Msg.CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = "اكرّر حتى";
 Blockly.Msg.CONTROLS_WHILEUNTIL_OPERATOR_WHILE = "اكرّر طالما";
 Blockly.Msg.CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = "بما ان القيمة خاطئة, نفّذ بعض الأوامر.";
 Blockly.Msg.CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = "بما ان القيمة صحيحة, نفّذ بعض الأوامر.";
+Blockly.Msg.DELETE_ALL_BLOCKS = "حذف كل بلوكات %1؟";
 Blockly.Msg.DELETE_BLOCK = "إحذف القطعة";
 Blockly.Msg.DELETE_X_BLOCKS = "إحذف قطع %1";
 Blockly.Msg.DISABLE_BLOCK = "عطّل القطعة";
 Blockly.Msg.DUPLICATE_BLOCK = "ادمج";
 Blockly.Msg.ENABLE_BLOCK = "أعد تفعيل القطعة";
-Blockly.Msg.EXPAND_ALL = "وسٌّع القطع";
-Blockly.Msg.EXPAND_BLOCK = "وسٌّع القطعة";
+Blockly.Msg.EXPAND_ALL = "وسٌّع القطع";
+Blockly.Msg.EXPAND_BLOCK = "وسٌّع القطعة";
 Blockly.Msg.EXTERNAL_INPUTS = "ادخال خارجي";
 Blockly.Msg.HELP = "مساعدة";
 Blockly.Msg.INLINE_INPUTS = "ادخال خطي";
@@ -188,7 +188,7 @@ Blockly.Msg.MATH_CHANGE_TITLE = "غير %1 بـ %2";
 Blockly.Msg.MATH_CHANGE_TOOLTIP = "إضف رقم إلى متغير '%1'.";
 Blockly.Msg.MATH_CONSTANT_HELPURL = "https://en.wikipedia.org/wiki/Mathematical_constant";
 Blockly.Msg.MATH_CONSTANT_TOOLTIP = "ير جع واحد من الثوابت الشائعة : π (3.141…), e (2.718…), φ (1.618…), sqrt(2) (1.414…), sqrt(½) (0.707…), or ∞ (infinity).";
-Blockly.Msg.MATH_CONSTRAIN_HELPURL = "https://en.wikipedia.org/wiki/Clamping_%28graphics%29";
+Blockly.Msg.MATH_CONSTRAIN_HELPURL = "https://en.wikipedia.org/wiki/Clamping_%28graphics%29";  // untranslated
 Blockly.Msg.MATH_CONSTRAIN_TITLE = "تقيد %1 منخفض %2 مرتفع %3";
 Blockly.Msg.MATH_CONSTRAIN_TOOLTIP = "تقييد العددليكون بين الحدود المحددة (ضمناً).";
 Blockly.Msg.MATH_DIVISION_SYMBOL = "÷";
