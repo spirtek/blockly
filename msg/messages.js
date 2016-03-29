@@ -993,8 +993,24 @@ Blockly.Msg.LISTS_SPLIT_TOOLTIP_JOIN = 'Join a list of texts into one text, sepa
 Blockly.Msg.ORDINAL_NUMBER_SUFFIX = '';
 
 // Variables Blocks.
+/// The display name of the any variable type
+Blockly.Msg.VARIABLES_TYPE_ANY = 'any';
+/// The display name of the true/false variable type
+Blockly.Msg.VARIABLES_TYPE_BOOLEAN = 'true/false';
+/// The display name of the number variable type
+Blockly.Msg.VARIABLES_TYPE_NUMBER = 'number';
+/// The display name of the text variable type
+Blockly.Msg.VARIABLES_TYPE_STRING = 'text';
+/// The display name of the array variable type
+Blockly.Msg.VARIABLES_TYPE_ARRAY = 'list';
+
 /// url - Information about ''variables'' in computer programming.  Consider using your language's translation of [https://en.wikipedia.org/wiki/Variable_(computer_science) https://en.wikipedia.org/wiki/Variable_(computer_science)], if it exists.
 Blockly.Msg.VARIABLES_GET_HELPURL = 'https://github.com/google/blockly/wiki/Variables#get';
+/// block text - This precedes the name of a variable when getting its values.  In most (all?) languages, it should be the empty string.  If unsure, ask yourself if any word should go before      "x" in the expression "x + 1".
+Blockly.Msg.VARIABLES_GET_TITLE = '';
+Blockly.Msg.VARIABLES_GET_ITEM = Blockly.Msg.VARIABLES_DEFAULT_NAME;
+/// block text - This follows the name of a variable.  In most (all?) languages, it should be the empty string.  If unsure, ask yourself if any word should go after "x" in the expression "x + 1".
+Blockly.Msg.VARIABLES_GET_TAIL = '';
 /// tooltip - This gets the value of the named variable without modifying it.
 Blockly.Msg.VARIABLES_GET_TOOLTIP = 'Returns the value of this variable.';
 /// context menu - Selecting this creates a block to set (change) the value of this variable.
@@ -1003,6 +1019,12 @@ Blockly.Msg.VARIABLES_GET_CREATE_SET = 'Create "set %1"';
 
 /// url - Information about ''variables'' in computer programming.  Consider using your language's translation of [https://en.wikipedia.org/wiki/Variable_(computer_science) https://en.wikipedia.org/wiki/Variable_(computer_science)], if it exists.
 Blockly.Msg.VARIABLES_SET_HELPURL = 'https://github.com/google/blockly/wiki/Variables#set';
+/// block text - The imperative or infinitive form of the verb "set", as in: '''set''' [the value of] x to 7.
+Blockly.Msg.VARIABLES_SET_TITLE = 'set';
+Blockly.Msg.VARIABLES_SET_ITEM = Blockly.Msg.VARIABLES_DEFAULT_NAME;
+/// block text - The word that goes after the name of the variable and before its new
+/// value in: set [the value of] x '''to''' 7.
+Blockly.Msg.VARIABLES_SET_TAIL = 'to';
 /// block text - Change the value of a mathematical variable: '''set [the value of] x to 7'''.\n\nParameters:\n* %1 - the name of the variable.\n* %2 - the value to be assigned.
 Blockly.Msg.VARIABLES_SET = 'set %1 to %2';
 /// tooltip - This initializes or changes the value of the named variable.
